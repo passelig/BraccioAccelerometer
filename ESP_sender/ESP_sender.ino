@@ -20,7 +20,7 @@ void setup() {
   //Serial er koblingen som vil benyttesmellom ESP32 og PC
   //Serial2 er koblingen som skal brukes mellom ESP32 og Arduino Uno
   Serial.begin(115200);
-  Serial2.begin(9600, SERIAL_8N1, RXpin, TXpin);
+  Serial2.begin(115200, SERIAL_8N1, RXpin, TXpin);
 }
 
 void loop() {
@@ -28,14 +28,5 @@ void loop() {
   //Serial sendes til PC over USB, mens Serial2 sendes til Arduino Uno over TX2
   Serial.print("Sender ");
   delay(500);
-  Serial.print("1 ");
-  Serial2.print("1 ");
-  delay(500);
-  Serial.print("2 ");
-  Serial2.print("2 ");
-  delay(500);
-  Serial.print("3");
-  Serial2.print("3");
-  Serial.println("");
-  delay(1000);
+  Serial2.println("35/78");
 }
