@@ -12,8 +12,8 @@ ESP32-delen.
 //Definerer RX, og TX-pinnene
 //I denne koden bruker vi ikke RX, da vi kun skal sende, men jeg har
 //valgt å inkludere den for å enklere kunne utvide programmet ved behov.
-#define RXpin 16
-#define TXpin 17
+#define RXpin 16 // Merket rx2
+#define TXpin 17 // Merket tx2
 
 void setup() {
   //Starter opp seriell-tilkobling
