@@ -18,7 +18,7 @@ Arduino Uno-delen.
 //har valgt å inkludere den for å enklere kunne utvide programmet ved behov.
 #define SoftRXpin 10
 #define SoftTXpin 11
-//Tulleendring
+
 SoftwareSerial mySerial(SoftRXpin, SoftTXpin);
 
 void setup() {
