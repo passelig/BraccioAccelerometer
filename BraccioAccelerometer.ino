@@ -1,10 +1,10 @@
  /*
   testBraccio90.ino
 
- testBraccio90 is a setup sketch to check the alignment of all the servo motors
- This is the first sketch you need to run on Braccio
- When you start this sketch Braccio will be positioned perpendicular to the base
- If you can't see the Braccio in this exact position you need to reallign the servo motors position
+ // 	testBraccio90 is a setup sketch to check the alignment of all the servo motors
+ 	This is the first sketch you need to run on Braccio
+	When you start this sketch Braccio will be positioned perpendicular to the base
+	If you can't see the Braccio in this exact position you need to reallign the servo motors position
 
  Created on 18 Nov 2015
  by Andrea Martino
