@@ -14,8 +14,8 @@
 
 #include <Braccio.h>
 #include <Servo.h>
-int roll = 0;
-int pitch = 0;
+int roll = 90;
+int pitch = 90;
 
 
 Servo base;
@@ -84,7 +84,8 @@ void loop() {
       }
     }
   }
-
+  Serial.println("Roll: " + String(roll) + ", ptich: " + String(pitch));
   Braccio.ServoMovement(20,         90, 90, 90, roll, pitch,  73);  
+  delay(500);
 	 
 }
